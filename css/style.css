@@ -62,8 +62,11 @@ margin-top: 10px;
 .third{
     padding-right:49px ;
 }
+.header-button{
+    display: flex;
+}
 .button-header-1{
-  
+  cursor: pointer;
    font-weight: 600; 
    font-size: 16px;
    text-align: center;
@@ -73,11 +76,12 @@ margin-top: 10px;
    height: 45px;
    border: 1px solid rgba(0, 0, 0, 0.5);
    margin-right: 6px;
-
-
+}
+.container1-button{
+    display: flex;
 }
 .button-header-2{
-
+cursor: pointer;
     font-weight: 600; 
     font-size: 16px;
     text-align: center;
