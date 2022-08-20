@@ -130,3 +130,40 @@ padding-bottom: 51px;
    height: 529px;
 padding-bottom: 22px;
 }
+.section-logos{
+background:#FF9C7D ;    
+}
+.container-logos{
+    max-width: 1298px;
+    margin: 0 auto;
+}
+h2{
+    font-weight: 600;
+    font-size: 50px;  
+    color: #000000;  
+}
+.tittle-logos{
+    text-align: center;
+    padding: 108px 0 82px 0;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 104px;
+}
+.text-control{
+    font-weight: 400;
+    font-size: 20px;    
+    color: #000000;
+}
+span{
+    text-decoration: underline;
+}
+.text-control-start{
+    font-weight: 600;
+    font-size: 20px;   
+    color: #000000;
+}
+a{
+    text-decoration: none;
+}
