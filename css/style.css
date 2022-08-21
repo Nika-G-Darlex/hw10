@@ -178,22 +178,68 @@ span{
 a{
     text-decoration: none;
 }
-.h-control{
-    width: 493px;
-}
-.left-control{
+.left-section{
     padding-top: 151px;
 }
 .section-market{
 max-width: 1290px;
 margin: 0 auto;
-padding-top: 250px;  
+padding: 250px 0 250px 0;  
 display: flex;  
 justify-content: space-between;
 }
-.h-market{
-    width: 379px;
-}
 .width-market{
     width: 450px;
+}
+.section-quality{
+    max-width: 1290px;
+    margin: 0 auto;
+    padding-bottom:250px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.width-quality{
+width: 520px;
+}
+.left-quality{
+ padding-top: 161px;   
+}
+.section-less{
+    max-width: 1290px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.right-less{
+    padding-top: 123px;
+}
+.section-lokalise{
+    background: #FFF8E4;  
+    color: #000000; 
+}
+.container-lokalise{
+    max-width: 1172px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+.tittle-lokalise{
+    text-align: center;
+    padding-bottom: 79px;
+}
+.card-lokalise{
+    display: flex;
+    justify-content: space-between;
+text-align: center;
+padding-bottom: 75px;
+}
+.tittle-card{
+    font-weight: 600;
+    font-size: 25px; 
+    padding: 23px 0 23px 0;  
+}
+.text-card{
+    font-weight: 400;
+    font-size: 18px;   
 }
