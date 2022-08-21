@@ -31,11 +31,9 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 justify-content: space-between;
 align-items: center;
 }
-
 .header-logo{
-padding-right: 51px;
+ padding-right: 51px;   
 }
-
 .header-left{
     display: flex;
 
@@ -43,8 +41,6 @@ padding-right: 51px;
 .header-menu{
  display: flex;
     list-style: none;
-
-
 }
 .menu{
     display: block;
@@ -103,18 +99,22 @@ margin: auto;
 padding-bottom: 172px;
 }
 h1{
+    width: 552px;
    color:#000000; 
    font-weight: 600;
 font-size: 65px;
 padding-bottom: 51px;
 }
 .text1{
+    width:471px ;
     font-weight: 400;
     font-size: 25px;   
     color:#000000; 
     padding-bottom: 51px;
 }
 .text2{
+
+    width: 369px;
     font-weight: 400;
     font-size: 15px;  
     color:#000000;  
@@ -143,27 +143,57 @@ h2{
     color: #000000;  
 }
 .tittle-logos{
-    text-align: center;
     padding: 108px 0 82px 0;
+    text-align: center;
 }
 .logos{
     display: flex;
     justify-content: space-between;
     padding-bottom: 104px;
 }
-.text-control{
+.section-control{
+width: 1290px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+padding-top: 90px;
+}
+.text-section{
     font-weight: 400;
     font-size: 20px;    
     color: #000000;
+    padding: 30px 0 30px 0;
+}
+.width-control{
+    width: 491px;    
 }
 span{
     text-decoration: underline;
 }
-.text-control-start{
+.start{
     font-weight: 600;
     font-size: 20px;   
     color: #000000;
 }
 a{
     text-decoration: none;
+}
+.h-control{
+    width: 493px;
+}
+.left-control{
+    padding-top: 151px;
+}
+.section-market{
+max-width: 1290px;
+margin: 0 auto;
+padding-top: 250px;  
+display: flex;  
+justify-content: space-between;
+}
+.h-market{
+    width: 379px;
+}
+.width-market{
+    width: 450px;
 }
