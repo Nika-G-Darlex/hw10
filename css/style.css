@@ -346,3 +346,30 @@ margin-top: 32px;
     text-align: center;
     margin: auto;
 }
+.section-localization{
+    background: #FF9C7D;
+    padding-top: 119px;
+}
+.container-lokalization{
+    max-width: 784px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom:161px ;
+}
+.text-lokalization{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px; 
+    color: #000000;
+    padding: 29px 0 54px 0;
+}
+.button-lokalization{
+    background: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 160px;
+    height: 60px;
+    font-weight: 600;
+font-size: 17px;
+line-height: 60px;
+}
