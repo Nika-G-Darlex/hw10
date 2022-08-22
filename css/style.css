@@ -99,20 +99,24 @@ cursor: pointer;
 margin: auto;
 padding-bottom: 172px;
 }
-h1{
+.width-accelerate{
     width: 552px;
+    padding-bottom: 51px;
+}
+h1{
    color:#000000; 
    font-weight: 600;
 font-size: 65px;
-padding-bottom: 51px;
 }
 .text1{
-    width:471px ;
     font-weight: 400;
     font-size: 25px;   
     color:#000000; 
-    padding-bottom: 51px;
     line-height: 35px;
+}
+.width-text-accelerate{
+    width:471px ;  
+    padding-bottom: 51px;
 }
 .text2{
     font-weight: 400;
@@ -320,4 +324,25 @@ padding-top:26px ;
     width: 1px;
     height: 168px;
     background: #000000;
+}
+.section-integrate{
+    max-width:1025px ;
+    margin: 0 auto;
+    text-align: center;
+    padding: 165px 0 162px 0;
+}
+.integrate-width-text{
+    width: 539px;
+    margin: auto;
+    padding-bottom: 25px;
+}
+.width-integrate-button{
+ width: 193px;   
+margin-top: 32px;
+
+}
+.width-integrate{
+    width: 791px;
+    text-align: center;
+    margin: auto;
 }
