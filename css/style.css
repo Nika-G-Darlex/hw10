@@ -289,12 +289,35 @@ padding-bottom: 75px;
     font-size: 30px;
     line-height: 40px;   
     color: #000000;
-    width: 921px;
     padding-bottom: 23px;
 }
 .left-revolut{
     padding-top:10px ;
+    width: 921px;
 }
 .bottom-revolut{
     padding-bottom: 10px;
+}
+.section-cake{
+    background: #DABC98; 
+}
+.container-cake{
+    max-width:1330px ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0 88px 0;
+}
+.text-cake{
+    width: 461px;
+    font-weight: 600;
+font-size: 35px;
+line-height: 50px;
+color: #000000;
+padding-top:26px ;
+}
+.img-cake{
+    width: 1px;
+    height: 168px;
+    background: #000000;
 }
