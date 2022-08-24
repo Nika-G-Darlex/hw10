@@ -27,7 +27,7 @@ header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.header-section {
+.header-wrap {
     max-width: 1338px;
     height: 95px;
     margin: 0 auto;
@@ -100,12 +100,14 @@ header {
     border: none;
 }
 
-.section-accelerate {
+.accelerate-wrap{
     max-width: 1298px;
-    padding-top: 129px;
     display: flex;
     justify-content: space-between;
     margin: auto;
+}
+.section-accelerate {
+    padding-top: 129px;
     padding-bottom: 172px;
 }
 
@@ -159,7 +161,7 @@ h1 {
     background: #FF9C7D;
 }
 
-.container-logos {
+.logos-wrap {
     max-width: 1298px;
     margin: 0 auto;
 }
@@ -183,12 +185,14 @@ h2 {
 }
 
 .section-control {
+    padding-top: 90px;
+    color: #000000;
+}
+.control-wrap{
     max-width: 1290px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    padding-top: 90px;
-    color: #000000;
+    justify-content: space-between;    
 }
 
 .text-control {
@@ -222,14 +226,16 @@ a {
 }
 
 .section-market {
-    max-width: 1290px;
-    margin: 0 auto;
     padding: 250px 0 250px 0;
-    display: flex;
-    justify-content: space-between;
     color: #000000;
 }
 
+.market-wrap{
+    max-width: 1290px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;  
+}
 .left-market {
     margin-right: 50px;
 }
@@ -239,14 +245,16 @@ a {
 }
 
 .section-quality {
-    max-width: 1290px;
-    margin: 0 auto;
     padding-bottom: 250px;
-    display: flex;
-    justify-content: space-between;
     color: #000000;
 }
 
+.quality-wrap{
+    max-width: 1290px;
+    margin: 0 auto;  
+    display: flex;
+    justify-content: space-between;
+}
 .width-quality {
     width: 520px;
 }
@@ -256,14 +264,16 @@ a {
 }
 
 .section-less {
-    max-width: 1290px;
-    margin: 0 auto;
     padding-bottom: 150px;
-    display: flex;
-    justify-content: space-between;
     color: #000000;
 }
 
+.less-wrap{
+    max-width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;   
+}
 .right-less {
     padding-top: 123px;
 }
@@ -304,12 +314,14 @@ a {
 }
 
 .section-boost {
-    max-width: 1287px;
-    margin: 0 auto;
     padding: 154px 0 138px 0;
     color: #000000;
 }
 
+.boost-wrap{
+    max-width: 1287px;
+    margin: 0 auto;   
+}
 .tittle-boost {
     padding-bottom: 92px;
 }
@@ -342,7 +354,7 @@ a {
     color: #000000;
 }
 
-.container-revolut {
+.revolut-wrap {
     max-width: 1291px;
     margin: 0 auto;
     display: flex;
@@ -371,7 +383,7 @@ a {
     color: #000000;
 }
 
-.container-cake {
+.cake-wrap {
     max-width: 1330px;
     margin: 0 auto;
     display: flex;
@@ -395,10 +407,12 @@ a {
 }
 
 .section-integrate {
+    padding: 165px 0 162px 0;
+}
+.integrate-wrap{
     max-width: 1025px;
     margin: 0 auto;
     text-align: center;
-    padding: 165px 0 162px 0;
 }
 
 .integrate-width-text {
@@ -424,7 +438,7 @@ a {
     padding-top: 119px;
 }
 
-.container-lokalization {
+.lokalization-wrap {
     max-width: 784px;
     margin: 0 auto;
     text-align: center;
@@ -459,7 +473,7 @@ a {
     color: #000000;
 }
 
-.container-case {
+.case-wrap {
     max-width: 1290px;
     margin: 0 auto;
     display: flex;
@@ -514,7 +528,7 @@ li {
     color: #000000;
 }
 
-.container-footer {
+.footer-wrap {
     max-width: 1290px;
     margin: 0 auto;
     padding: 47px 0 48px 0;
