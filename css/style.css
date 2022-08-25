@@ -631,3 +631,87 @@ justify-content: space-around;
     font-size: 15px;
 }
 }
+@media screen and (max-width: 720px) {
+    .header-section, .section-accelerate, .section-logos, .section-control, .section-market, .section-quality, .section-less, .section-boost, .section-revolut, .section-cake, .section-lokalise, .section-integrate, .section-localization, .section-case,  .section-footer, .border-footer{
+        width: 100%;
+       }
+       .header-wrap, .logos-wrap, .control-wrap, .market-wrap, .quality-wrap, .less-wrap, .boost-wrap, .revolut-wrap,  .cake-wrap, .container-lokalise, .integrate-wrap, .localization-wrap, .case-wrap, .footer-wrap{
+        width: 90%;
+    }
+   .header-menu{
+     display: none;
+   }
+.button-header-left, .button-header-right{
+    width: 100px;
+}
+.tittle-accelerate{
+  font-size: 35px;
+}
+.section-accelerate{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.accelerate-wrap{
+display: block;
+}
+.accelerate-left{
+    width: 100%;
+}
+   .image-accelerate{
+    display: none;
+   }
+   .width-button-accelerate{
+    width: 120px;
+   }
+.tittle-logos{
+    font-size: 35px;
+}
+.logos{
+padding-bottom: 50px;
+
+}
+.control-wrap{
+    display: block;
+}
+.section-control{
+    padding-top: 0;
+}
+.left-control{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+h2{
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+   .left-revolut{
+    width: 70%;
+   }
+   .text-cake{
+   font-size: 35px;
+   width: 100%;
+   padding-top: 0;
+   }
+   .image-cake-right{
+    width: 55%;
+    height: 65%;
+   }
+   .image-cake-left{
+   display: none;
+   }
+   .img-cake{
+   display: none;
+   }
+   .cake-wrap{
+    display: block;
+   }
+}
