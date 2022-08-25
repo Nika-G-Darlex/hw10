@@ -24,11 +24,11 @@
 }
 
 header {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .header-wrap {
-    max-width: 1338px;
+    width: 1338px;
     height: 95px;
     margin: 0 auto;
     display: flex;
@@ -101,7 +101,7 @@ header {
 }
 
 .accelerate-wrap{
-    max-width: 1298px;
+    width: 1298px;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -147,7 +147,7 @@ h1 {
 
 .width-button-accelerate {
     width: 160px;
-    height: 60px;
+   
     margin-right: 6px;
 }
 
@@ -162,8 +162,9 @@ h1 {
 }
 
 .logos-wrap {
-    max-width: 1298px;
+    width: 1298px;
     margin: 0 auto;
+    background: #FF9C7D;
 }
 
 h2 {
@@ -189,7 +190,7 @@ h2 {
     color: #000000;
 }
 .control-wrap{
-    max-width: 1290px;
+    width: 1290px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;    
@@ -231,7 +232,7 @@ a {
 }
 
 .market-wrap{
-    max-width: 1290px;
+    width: 1290px;
     margin: 0 auto; 
     display: flex;
     justify-content: space-between;  
@@ -250,7 +251,7 @@ a {
 }
 
 .quality-wrap{
-    max-width: 1290px;
+    width: 1290px;
     margin: 0 auto;  
     display: flex;
     justify-content: space-between;
@@ -269,7 +270,7 @@ a {
 }
 
 .less-wrap{
-    max-width: 1290px;
+    width: 1290px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;   
@@ -284,7 +285,7 @@ a {
 }
 
 .container-lokalise {
-    max-width: 1172px;
+    width: 1172px;
     margin: 0 auto;
     padding: 120px 0 97px 0;
 }
@@ -319,7 +320,7 @@ a {
 }
 
 .boost-wrap{
-    max-width: 1287px;
+    width: 1287px;
     margin: 0 auto;   
 }
 .tittle-boost {
@@ -355,11 +356,12 @@ a {
 }
 
 .revolut-wrap {
-    max-width: 1291px;
+    width: 1291px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 53px 0 105px 0;
+    background: #C9E8F2;
 }
 
 .text-revolut {
@@ -384,7 +386,8 @@ a {
 }
 
 .cake-wrap {
-    max-width: 1330px;
+    background: #DABC98;
+    width: 1330px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -410,7 +413,7 @@ a {
     padding: 165px 0 162px 0;
 }
 .integrate-wrap{
-    max-width: 1025px;
+    width: 1025px;
     margin: 0 auto;
     text-align: center;
 }
@@ -439,10 +442,11 @@ a {
 }
 
 .lokalization-wrap {
-    max-width: 784px;
+    width: 784px;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 161px;
+    background: #FF9C7D;
 }
 
 .text-lokalization {
@@ -474,7 +478,8 @@ a {
 }
 
 .case-wrap {
-    max-width: 1290px;
+    background: #EEEEEE;
+    width: 1290px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -529,11 +534,12 @@ li {
 }
 
 .footer-wrap {
-    max-width: 1290px;
+    width: 1290px;
     margin: 0 auto;
     padding: 47px 0 48px 0;
     display: flex;
     justify-content: space-between;
+    background: #EEEEEE;
 }
 
 .text-footer {
@@ -542,6 +548,7 @@ li {
     line-height: 15px;
     width: 301px;
     margin-left: 14px;
+
 }
 
 .border-footer {
@@ -556,10 +563,71 @@ li {
 }
 
 .right-footer {
-    margin-right: -115px;
+ display: flex;
+justify-content: flex-start;
+width:170px ;
+
 }
 
 .logo-footer {
     width: 90px;
     height: 21px;
+}
+.width-text-footer{
+    width: 109px;;
+}
+@media screen and (max-width: 1280px) {
+       .header-section, .section-accelerate, .section-logos, .section-control, .section-market, .section-quality, .section-less, .section-boost, .section-revolut, .section-cake, .section-lokalise, .section-integrate, .section-localization, .section-case,  .section-footer, .border-footer{
+        width: 100%;
+       }
+    .header-wrap, .logos-wrap, .control-wrap, .market-wrap, .quality-wrap, .less-wrap, .boost-wrap, .revolut-wrap,  .cake-wrap, .container-lokalise, .integrate-wrap, .localization-wrap, .case-wrap, .footer-wrap{
+        width: 90%;
+    }
+    .accelerate-wrap{
+        width:86% ;
+    }
+    .image-accelerate{
+        max-width: 60%;
+    }
+    h1{
+        font-size: 45px;
+    }
+    .text1{
+        font-size: 20px;
+    }
+    .text2{
+        font-size: 13px;
+    }
+    .accelerate-left{
+        width:40% ;
+    }
+    .width-text-accelerate{
+        width: 85%;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+    .image-control{
+        width: 50%;
+    }
+    .left-quality{
+        width: 50%;
+    }
+    .text-revolut{
+        font-size: 20px;
+    }
+    .text-cake{
+     font-size: 23px;   
+     margin-left: 50px;
+    }
+.right-footer{
+justify-content: space-around;
+}
+.tittle-case{
+    font-size: 35px;
+}
+.text-lokalization{
+    font-size: 15px;
+}
 }
