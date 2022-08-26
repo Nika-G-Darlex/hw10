@@ -590,11 +590,39 @@ li {
 
 @media screen and (max-width: 1280px) {
 
-    .header-section, .section-accelerate, .section-logos, .section-control, .section-market, .section-quality, .section-less, .section-boost, .section-revolut, .section-cake, .section-lokalise, .section-integrate, .section-localization, .section-case, .section-footer, .border-footer {
+    .header-section,
+    .section-accelerate,
+    .section-logos,
+    .section-control,
+    .section-market,
+    .section-quality,
+    .section-less,
+    .section-boost,
+    .section-revolut,
+    .section-cake,
+    .section-lokalise,
+    .section-integrate,
+    .section-localization,
+    .section-case,
+    .section-footer,
+    .border-footer {
         width: 100%;
     }
 
-    .header-wrap, .logos-wrap, .control-wrap, .market-wrap, .quality-wrap, .less-wrap, .boost-wrap, .revolut-wrap, .cake-wrap, .container-lokalise, .integrate-wrap, .localization-wrap, .case-wrap, .footer-wrap {
+    .header-wrap,
+    .logos-wrap,
+    .control-wrap,
+    .market-wrap,
+    .quality-wrap,
+    .less-wrap,
+    .boost-wrap,
+    .revolut-wrap,
+    .cake-wrap,
+    .container-lokalise,
+    .integrate-wrap,
+    .localization-wrap,
+    .case-wrap,
+    .footer-wrap {
         width: 90%;
     }
 
@@ -662,11 +690,38 @@ li {
 
 @media screen and (max-width: 720px) {
 
-    .header-section, .section-accelerate, .section-logos, .section-control, .section-market, .section-quality, .section-less, .section-boost, .section-revolut, .section-cake, .section-lokalise, .section-integrate, .section-localization, .section-case, .section-footer, .border-footer {
+    .header-section,
+    .section-accelerate,
+    .section-logos,
+    .section-control,
+    .section-market,
+    .section-quality,
+    .section-less,
+    .section-boost,
+    .section-revolut,
+    .section-cake,
+    .section-lokalise,
+    .section-integrate,
+    .section-localization,
+    .section-case,
+    .section-footer,
+    .border-footer {
         width: 100%;
     }
 
-    .header-wrap, .logos-wrap, .control-wrap, .market-wrap, .quality-wrap, .less-wrap, .boost-wrap, .revolut-wrap, .cake-wrap, .container-lokalise, .localization-wrap, .case-wrap, .footer-wrap {
+    .header-wrap,
+    .logos-wrap,
+    .control-wrap,
+    .market-wrap,
+    .quality-wrap,
+    .less-wrap,
+    .boost-wrap,
+    .revolut-wrap,
+    .cake-wrap,
+    .container-lokalise,
+    .localization-wrap,
+    .case-wrap,
+    .footer-wrap {
         width: 90%;
     }
 
@@ -820,7 +875,7 @@ li {
 
     .text-cake {
         font-size: 35px;
-       max-width: 400px;
+        max-width: 400px;
         padding-top: 0;
     }
 
@@ -859,6 +914,9 @@ li {
 
     .img-integrate {
         max-width: 550px;
+    }
+    .width-integrate-button{
+        width: 120px;
     }
 
     h1 {
@@ -911,11 +969,38 @@ li {
 
 @media screen and (max-width: 500px) {
 
-    .header-section, .section-accelerate, .section-logos, .section-control, .section-market, .section-quality, .section-less, .section-boost, .section-revolut, .section-cake, .section-lokalise, .section-integrate, .section-localization, .section-case, .section-footer, .border-footer {
+    .header-section,
+    .section-accelerate,
+    .section-logos,
+    .section-control,
+    .section-market,
+    .section-quality,
+    .section-less,
+    .section-boost,
+    .section-revolut,
+    .section-cake,
+    .section-lokalise,
+    .section-integrate,
+    .section-localization,
+    .section-case,
+    .section-footer,
+    .border-footer {
         width: 100%;
     }
 
-    .header-wrap, .logos-wrap, .control-wrap, .market-wrap, .quality-wrap, .less-wrap, .boost-wrap, .revolut-wrap, .container-lokalise, .integrate-wrap, .localization-wrap, .case-wrap, .footer-wrap {
+    .header-wrap,
+    .logos-wrap,
+    .control-wrap,
+    .market-wrap,
+    .quality-wrap,
+    .less-wrap,
+    .boost-wrap,
+    .revolut-wrap,
+    .container-lokalise,
+    .integrate-wrap,
+    .localization-wrap,
+    .case-wrap,
+    .footer-wrap {
         width: 90%;
     }
 
@@ -1111,10 +1196,236 @@ li {
         max-width: 50px;
         max-height: 15px;
     }
-    .right-footer{
-        max-width: 107px;  
-        }
-        .left-footer{
-         max-width: 320px;   
-        }
+
+    .right-footer {
+        max-width: 107px;
+    }
+
+    .left-footer {
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .header-section,
+    .section-accelerate,
+    .section-logos,
+    .section-control,
+    .section-market,
+    .section-quality,
+    .section-less,
+    .section-boost,
+    .section-revolut,
+    .section-cake,
+    .section-lokalise,
+    .section-integrate,
+    .section-localization,
+    .section-case,
+    .section-footer,
+    .border-footer {
+        width: 100%;
+    }
+
+    .header-wrap,
+    .logos-wrap,
+    .control-wrap,
+    .market-wrap,
+    .quality-wrap,
+    .less-wrap,
+    .boost-wrap,
+    .revolut-wrap,
+    .cake-wrap,
+    .container-lokalise,
+    .integrate-wrap,
+    .localization-wrap,
+    .case-wrap,
+    .footer-wrap {
+        width: 90%;
+    }
+
+    .header-button {
+        display: none;
+    }
+
+    .text1 {
+        font-size: 13px;
+    }
+
+    .tittle-logos {
+        font-size: 20px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .logos {
+
+        width: 90%;
+    }
+
+    .img-logo {
+        max-width: 80px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .image-control {
+        width: 100%;
+    }
+
+    .text-control {
+        font-size: 13px;
+    }
+
+    .start {
+        font-size: 15px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .width-control {
+        padding-top: 0;
+    }
+
+    .width-market {
+        padding-top: 0;
+    }
+
+    .left-control {
+        width: 100%;
+    }
+
+    .width-quality {
+        padding-top: 0;
+    }
+
+    .tittle-lokalise {
+        font-size: 20px;
+    }
+
+    .img-lokalise {
+        max-width: 70px;
+        max-height: 50px;
+    }
+
+    .tittle-card {
+        font-size: 12px;
+    }
+
+    .tittle-boost {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .tittle-card-boost {
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+
+    .text-card-boost {
+        font-size: 13px;
+
+    }
+
+    .card-boost {
+        width: 100%;
+    }
+
+    .img-revolut {
+        width: 100%;
+        height: auto;
+    }
+
+    .left-revolut {
+        padding-top: 20px;
+    }
+
+    .text-revolut {
+        font-size: 13px;
+    }
+
+    .text-cake {
+        font-size: 15px;
+        max-width: 250px;
+        line-height: 30px;
+
+    }
+
+    .cake-wrap {
+        padding-top: 20px;
+    }
+
+    .image-cake-right {
+        width: 100%;
+        height: auto;
+    }
+
+    .width-integrate-tittle {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .section-integrate {
+        padding-top: 30px;
+    }
+
+    .width-integrate-button {
+        font-size: 13px;
+        width: 100px;
+    }
+
+    .tittle-lokalization {
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .button-lokalization {
+        width: 100px;
+        height: 50px;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .section-case {
+        padding-top: 30px;
+    }
+
+    .text-case {
+        font-size: 15px;
+    }
+
+    .case-wrap {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .text2 {
+        font-size: 11px;
+    }
+
+    .line-height-card {
+        max-width: 120px;
+    }
+
+    .section-footer {
+        padding-top: 20px;
+    }
+
+    .text-footer {
+        display: none;
+    }
+
+    .logo-footer {
+        max-width: 70px;
+        height: auto;
+    }
 }
